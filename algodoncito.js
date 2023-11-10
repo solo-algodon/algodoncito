@@ -14913,6 +14913,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 });
 
 $( document ).ready(function() {
+  $(".u-carousel-inner").css("pointer-events", "none");
   $( ".u-custom-menu .u-nav-link" ).not('.shop').click(function(event) {
       event.preventDefault();
       var dataTab = $(this).data("tab");
